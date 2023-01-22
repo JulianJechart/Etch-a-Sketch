@@ -1,0 +1,21 @@
+.grandparent {
+    width: 960px;
+    height: 960px;
+    grid: flex;
+    flex-direction: column;
+}
+
+.parent {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.child {
+    flex: 1;
+}
+
+.touched {
+    background-color: black;
+}
